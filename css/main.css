@@ -1,0 +1,213 @@
+/* **** Start Stle NAvbar ********* */
+
+.navbar {
+    padding-block: 50px !important;
+    background-color: #1E202B !important;
+}
+
+.navbar .navbar-brand img {
+    width: 64px;
+    height: 38px;
+}
+
+.navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.navbar .navbar-brand .description p {
+    font-size: 12px;
+}
+
+a {
+    color: #fff !important;
+}
+
+.navbar .navbar-nav li {
+    margin-inline: 10px !important;
+}
+
+.navbar .navbar-nav li .nav-link{
+    padding: 5px 25px !important;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+
+.navbar .navbar-nav li .nav-link.active {
+    border-color: #009AD8;
+    color: #009AD8 !important;
+}
+
+.navbar .navbar-nav li a:hover {
+    border-color: #009AD8;
+    color: #009AD8 !important;
+}
+
+
+/* **** End Stle NAvbar ********* */
+.text-color {
+    color: #009AD8;
+}
+
+section .home-content {
+
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 70px 0;
+}
+section .home-content .from-inputs{
+    margin-bottom: 70px;
+}
+
+
+.cards-content {
+    background-color: #323544;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -90px;
+    margin-bottom: 50px;
+}
+.today {
+    width: 33.333%;
+    color: #fff;
+}
+.today .days {
+    background-color: #2D303D;
+    padding: 0 5px;
+}
+.weather-card .cauntry {
+    font-size: 18px;
+}
+.weather-card .degree {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 135px;
+ 
+}
+.weather-card .degree sup{
+    font-size: 68px;
+}
+
+.more-details img{
+    width: 30px;
+}
+
+.today .body-card {
+    padding: 30px 20px;
+}
+
+.other-day:nth-child(even) {
+    background-color: #262936;
+
+}
+.other-day {
+    color: #fff;
+    width: 33.333%;
+}
+
+.other-day .day-2 {
+    background-color: #222530;
+}
+
+.other-day .body-card {
+    padding: 50px 20px 10px 20px;
+}
+.other-day .days {
+    padding: 10px;
+
+}
+.other-day .body-card .icon {
+    margin-bottom: 20px;
+} 
+.other-day .body-card .degree-2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.spicial-bg {
+    background-color: #323544;
+
+}
+.spicial-bg .days {
+    background-color: #2D303D;
+}
+section.bg-color {
+    background-color: #1E202B;
+    padding-bottom: 50px;
+}
+ input {
+    background-color: #1E202B;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+  button {
+    width: 100px;
+    height: 50px;
+    background-color: #009AD8;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 2.5px;
+    right: 5px;
+    bottom: 2.5px;
+
+}
+footer {
+    background-color: #262936;
+}
+
+footer .from-inputs {
+    width: 70%;
+}
+footer .social-media{
+   width: 20%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+footer .social-media a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #009AD8 !important;
+    background-color: #1E202B;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+    color: rgb(191, 193, 200);
+    padding-top: 20px;
+}
+/* ********* Media Query ********* */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}

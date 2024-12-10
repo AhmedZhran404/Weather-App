@@ -1,0 +1,99 @@
+.navbar .navbar-nav li .nav-link.active {
+    border-color: #009AD8 !important;
+    color: #009AD8 !important;
+}
+  .contact {
+    padding: 80px 0;
+  }
+  .contact .contact-details .card {
+    background-color: #262936;
+    color: #bfc1c8;
+    margin-top: 10px;
+  }
+  .contact .contact-details .card i {
+    color: #07A5DA;
+  }
+  .contact .contact-details .card-title {
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  
+  .contact .form-details {
+    padding-left: 70px;
+  }
+  .contact .form-details .title h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #fff;
+  }
+  .contact .form-details .title p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #bfc1c8;
+  }
+  .contact .form-details form input {
+    padding: 15px;
+    margin-bottom: 10px;
+    color: #fff;
+    border: 2px solid #393c48;
+    background: transparent;
+    border-radius: 30px;
+    box-shadow: none;
+  }
+  .contact .form-details form input::placeholder,
+  .contact .form-details form textarea::placeholder {
+    color: #bfc1c8;
+  }
+  .contact .form-details form input:hover,
+  .contact .form-details form textarea:hover,
+  .contact .form-details form input:focus,
+  .contact .form-details form textarea:focus {
+    border: 2px solid #009ad8;
+  }
+  .contact .form-details form textarea {
+    padding: 15px;
+    border: 2px solid #393c48;
+    background: transparent;
+    border-radius: 30px;
+    box-shadow: none;
+  }
+
+.breadcrump {
+    background-color: #262936;
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.breadcrump a {
+    text-decoration: none;
+    color: #bfc1c8 !important;
+}
+
+.breadcrump a:hover {
+    text-decoration: underline;
+  }
+  /*!  End Contact Html   */
+  
+  /****** Media Query ****/
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 1100px;
+      margin: auto;
+    }
+  }
+  
+  @media (min-width: 992px) {
+  }
+  @media (max-width: 768px) {
+    footer form {
+      width: 100%;
+    }
+  }
+  
